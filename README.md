@@ -60,10 +60,10 @@ Możesz teraz edytować folder `content` zgodnie z zasadami opisanymi niżej.
 
 > [!IMPORTANT]  
 > Pamiętaj, aby na koniec scommitować i spushować zmiany wewnątrz folderu `content`, czyli po wykonaniu
-```bash
-cd content
-``` 
-Sprawdzenie aktualnej ścieżki (`pwd`) jest ważne, gdyż nie masz uprawnien do edytowania `knmt-website` bezpośrednio.
+> ```bash
+> cd content
+> ``` 
+> Sprawdzenie aktualnej ścieżki (`pwd`) jest ważne, gdyż nie masz uprawnien do edytowania `knmt-website` bezpośrednio.
 
 
 ## zarządzanie wpisami

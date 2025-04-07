@@ -29,7 +29,7 @@ Wszystkie ścieżki niżej są podane względem `knmt-website` zakładając, że
 
 
 > [!CAUTION]
-> Wszystkie nazwy folderów nie powinny zawierać spacji ani znaków specjalnych (w tym polskich) innych od `_`. Nieprzestrzeganie tej zasady może skutkować błędami w budowie strony.
+> Wszystkie nazwy folderów nie powinny zawierać spacji ani znaków specjalnych (w tym polskich) różnych od `_` lub `-`. Nieprzestrzeganie tej zasady może skutkować błędami w budowie strony.
 
 ## zarządzanie wpisami
 

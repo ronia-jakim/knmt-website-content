@@ -5,8 +5,6 @@ preview_image: 'kawusia.jpg'
 description: 'W dniach 28-30 marca 2025 na naszym wydziale odbyła się pierwsza edycja Wrocławskich Spotkań Szkockich - konrefencji od studentów dla studentów.'
 ---
 
-llll
-
 Podsumowanie Konferencji Studenckiej z Matematyki
 
 W dniach 28-30 marca 2025 odbyła się studencka konferencja matematyczna, w której uczestniczyło ponad 50 studentów z Wrocławia, Krakowa i Warszawy. Wydarzenie stanowiło doskonałą okazję do wymiany myśli, zdobywania wiedzy i nawiązywania kontaktów w środowisku akademickim.

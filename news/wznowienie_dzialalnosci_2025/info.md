@@ -1,6 +1,6 @@
 ---
 title: 'Walne zebranie ws. wznowienia działalności Koła'
-date: '2024.04.10'
+date: '2025.04.10'
 preview_image: 'wybory.png'
 description: 'Drodzy Członkowie, o 10:30 w czwartek 10 IV odbędzie się walne zebranie dot. wznowienia działalności Koła.'
 ---

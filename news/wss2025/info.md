@@ -5,7 +5,7 @@ preview_image: 'kawusia.jpg'
 description: 'W dniach 28-30 marca 2025 na naszym wydziale odbyła się pierwsza edycja Wrocławskich Spotkań Szkockich - konrefencji od studentów dla studentów.'
 ---
 
-tttt
+t
 
 Podsumowanie Konferencji Studenckiej z Matematyki
 

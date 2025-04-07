@@ -31,6 +31,41 @@ Wszystkie ścieżki niżej są podane względem `knmt-website` zakładając, że
 > [!CAUTION]
 > Wszystkie nazwy folderów nie powinny zawierać spacji ani znaków specjalnych (w tym polskich) różnych od `_` lub `-`. Nieprzestrzeganie tej zasady może skutkować błędami w budowie strony.
 
+## testowanie
+
+W celu testowania dodanych wpisów w wybranym przez siebie folderze wykonaj następujące polecenia
+```bash
+# klonujemy repozytorium knmt-website wraz z submodules
+git clone --recurse-submodules https://github.com/ronia-jakim/knmt-website 
+
+cd knmt-website 
+# instalujesz pythonowe dependencies
+pip install -r ./requirements.txt
+source .venv/bin/activate
+```
+
+W celu zbudowania strony po `source .venv/bin/activate` wykonaj
+```
+./build.sh
+```
+Otwierając drugi terminal wejdź do folder `knmt-website` i odpal
+```
+./local_server.sh
+```
+
+Jeśli jeszcze tego nie zrobiłeś, zainstaluj [Caddy](https://github.com/caddyserver/caddy).
+
+Możesz teraz edytować folder `content` zgodnie z zasadami opisanymi niżej.
+
+
+> [!IMPORTANT]  
+> Pamiętaj, aby na koniec scommitować i spushować zmiany wewnątrz folderu `content`, czyli po wykonaniu
+> ```bash
+> cd content
+> ``` 
+> Sprawdzenie aktualnej ścieżki (`pwd`) jest ważne, gdyż nie masz uprawnien do edytowania `knmt-website` bezpośrednio.
+
+
 ## zarządzanie wpisami
 
 Wszystkie wpisy pojawiające się na stronie Aktualności są przechowywane w folderze `content/news` jako **folder z głównym plikiem `info.md` zawierającym** informacje takie jak

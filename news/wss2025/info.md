@@ -75,3 +75,5 @@ Serdecznie dziękujemy wszystkim, którzy przyczynili się do organizacji konfer
     - Niech $Aut_{\text{def}}(K) = $ zbiór definiowalnych automorfizmów ciała $K$
         - dla $p = 0$, $Aut\_{\text{def}}(K) = \{id\}.$
         - dla $p > 0$, $Aut\_{\text{def}}(K) \to Gal(\hat{\mathbb{F}}\_p / \mathbb{F}\_p)$ i grupa $Aut_{\text{def}}(K)$ jest nieskończona.
+
+tt

@@ -10,7 +10,7 @@ Struktura całego projektu
    |- requirements.txt # python libraries
    |- src
    |- assets
-   |- content
+   |- content          # TEN FOLDER WŁAŚNIE MODYFIKUJESZ
       |- info.md       # all basic informations about KNMT
       |- book_list.md  # KNMT library
       |- conf_list.md  # upcoming conferences

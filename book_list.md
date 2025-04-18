@@ -1,5 +1,7 @@
 ---
 books:
+    - { author: 'Bruno Poizat', title: 'Stable Groups' }
+    - { author: 'David Marker', title: 'Model Theory: An Introduction' }
     - { author: 'Michael Atiyah', title: 'Introduction to Commutative Algebra' }
     - { author: 'Allen Hatcher', title: 'Algebraic topology' }
     - { author: 'Ravi Vakil', title: 'The Rising Sea: Foundations of Algebraic Geometry' }

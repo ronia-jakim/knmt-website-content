@@ -25,7 +25,7 @@ Nie przegap okazji, aby zgłębić fascynujące zagadnienia matematyczne i nawi�
 
 📌 **Termin zgłoszeń**: 1 czerwca - 31 lipca 2025
 
-🔗 **Więcej informacji i rejestracja**: [https://sites.google.com/impan.pl/babysteps2025/home-page](https://sites.google.com/impan.pl/babysteps2025/home-page)
+🔗 **Więcej informacji i rejestracja**: [https://sites.google.com/impan.pl/25babysteps](https://sites.google.com/impan.pl/babysteps2025/home-page)
 
 Do zobaczenia! 🎉
 

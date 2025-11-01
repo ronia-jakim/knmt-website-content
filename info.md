@@ -1,7 +1,7 @@
 ---
    prezes: 'Krzysztof Szymański'
    wice: 'Jakub Rudzik'
-   skarbnik: 'Michał Mądrala'
-   sekretarz: 'Weronika Jakimowicz'
-   opiekun: 'Agnieszka Hejna-Łyżwa'
+   sekretarz: 'Michał Mądrala'
+   skarbnik: 'Weronika Jakimowicz'
+   opiekun: 'dr Agnieszka Hejna-Łyżwa'
 ---

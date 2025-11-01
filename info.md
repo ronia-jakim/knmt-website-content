@@ -1,7 +1,7 @@
 ---
-   prezes: 'Bartosz Szachniewicz'
-   wice: 'Michał Mądrala'
-   skarbnik: 'Krzysztof Szymański'
+   prezes: 'Krzysztof Szymański'
+   wice: 'Jakub Rudzik'
+   skarbnik: 'Michał Mądrala'
    sekretarz: 'Weronika Jakimowicz'
    opiekun: 'Agnieszka Hejna-Łyżwa'
 ---

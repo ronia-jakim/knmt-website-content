@@ -1,0 +1,89 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[OT4,plmath]{polski}
+\usepackage{tikz}
+\usepackage{color,graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{lipsum}
+
+%=============== POCZĄTEK DEFINICJI STYLU PREZENTACJI =================%
+
+\definecolor{darkblue}{HTML}{3d6373}
+\definecolor{blue}{HTML}{4e7f94}
+
+\setbeamercolor{title}{fg=white,bg=blue!70!black}
+\setbeamercolor{subtitle}{fg=blue!30!white}
+\setbeamercolor{author}{fg=blue!30!white}
+\setbeamercolor{date}{fg=blue!50!white}
+
+\setbeamercolor{frametitle}{fg=white,bg=darkblue!80!black}
+\setbeamercolor{background canvas}{bg=blue!10!white}
+
+\setbeamerfont{title}{size=\fontsize{17pt}{20pt}\selectfont,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large,series=\bfseries}
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{date}{size=\small, series=\bfseries}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+
+
+\setbeamertemplate{title page}
+{
+    \begin{tikzpicture}[remember picture,overlay]
+
+        \fill[darkblue] (current page.south west)
+                        rectangle (current page.north east);
+
+        \node[opacity=0.7, xshift=-13mm, yshift=22mm] at (current page.south east) {
+            \includegraphics[width=8cm]{logo-inverted-colors.png}  
+        };
+
+        \node[anchor=west, xshift=6mm, yshift=5mm] at (current page.west) {
+            \begin{minipage}{0.8\linewidth}
+                {\usebeamerfont{title}\usebeamercolor[fg]{title}\MakeUppercase{\inserttitle}\par}
+                \vspace{4mm}
+                \begin{minipage}{0.6\linewidth}
+                    {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}
+                    \vspace{8mm}
+                    {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}
+                    \vspace{0.2cm}
+                    {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+                \end{minipage}
+            \end{minipage}
+        };
+      \node[anchor=west, yshift=2mm] at (current page.south west) {
+          \color{blue!70!white}\tiny{\bfseries Koło Naukowe Matematyków Teoretyków}
+        };
+    \end{tikzpicture}
+}
+
+\setbeamertemplate{itemize item}{\color{darkblue}\large$\bullet$}
+
+\setbeamertemplate{navigation symbols}{}
+
+%=============== KONIEC DEFINICJI STYLU PREZENTACJI =================%
+
+\title{Moja piękna prezentacja o formach różniczkowych}
+\subtitle{crash course w 2 sekundy huba buba huba buba huba buba}
+\author{Super Student}
+\date{13.06.2025}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Co to takiego k-forma różniczkowa?}
+  Element $k$-tej potęgi zewnętrznej przestrzeni kostycznej.
+
+  Przykłady
+  \begin{itemize}
+    \item $\text{d}x$
+  \end{itemize}
+\end{frame}
+
+\end{document}

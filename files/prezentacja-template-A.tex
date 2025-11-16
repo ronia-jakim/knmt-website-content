@@ -1,0 +1,85 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[OT4,plmath]{polski}
+\usepackage{tikz}
+\usepackage{color,graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{lipsum}
+
+%=============== POCZĄTEK DEFINICJI STYLU PREZENTACJI =================%
+
+\definecolor{darkblue}{HTML}{3d6373}
+\definecolor{blue}{HTML}{4e7f94}
+
+\setbeamercolor{title}{fg=white,bg=blue!70!black}
+\setbeamercolor{subtitle}{fg=blue!30!white}
+\setbeamercolor{author}{fg=blue!30!white}
+\setbeamercolor{date}{fg=blue!50!white}
+
+\setbeamercolor{frametitle}{fg=white,bg=darkblue!80!black}
+\setbeamercolor{background canvas}{bg=blue!10!white}
+
+\setbeamerfont{title}{size=\fontsize{17pt}{20pt}\selectfont,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large,series=\bfseries}
+\setbeamerfont{author}{series=\bfseries}
+\setbeamerfont{date}{size=\small, series=\bfseries}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+
+
+\setbeamertemplate{title page}{
+  \begin{tikzpicture}[remember picture, overlay]
+    \fill[darkblue] (current page.south west) rectangle (current page.north east);
+    \fill[blue!10!white] ([xshift=-45mm]current page.north east) to[out=0, in=180] ([yshift=-25mm]current page.north east) to (current page.north east);
+    \fill[blue!10!white] ([yshift=25mm]current page.south west) to[out=0, in=180] ([xshift=45mm]current page.south west) to (current page.south west);
+
+    \node[anchor=north east] at (current page.north east) {\includegraphics[width=15mm]{logo-no-text.png}};
+    \node[anchor=south west] at (current page.south west) {\includegraphics[width=15mm]{UWr-logo.png}};
+
+    \node[anchor=west, xshift=6mm, yshift=0mm] at (current page.west) {
+        \begin{minipage}{\dimexpr\paperwidth-15mm\relax}
+            {\usebeamerfont{title}\usebeamercolor[fg]{title}\MakeUppercase{\inserttitle}\par}
+            \vspace{4mm}
+            {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}
+            \vspace{8mm}
+        \end{minipage}
+    };
+    \node[anchor=east, xshift=-6mm, yshift=25mm] at (current page.south east) {
+      {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}
+    };
+    \node[anchor=east, xshift=-6mm, yshift=20mm] at (current page.south east) {
+      {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+    };
+  \end{tikzpicture}
+}
+
+\setbeamertemplate{itemize item}{\color{darkblue}\large$\bullet$}
+
+\setbeamertemplate{navigation symbols}{}
+
+%=============== KONIEC DEFINICJI STYLU PREZENTACJI =================%
+
+\title{Moja piękna prezentacja o formach różniczkowych}
+\subtitle{crash course w 2 sekundy huba buba huba buba huba buba}
+\author{Super Student}
+\date{13.06.2025}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Co to takiego k-forma różniczkowa?}
+  Element $k$-tej potęgi zewnętrznej przestrzeni kostycznej.
+
+  Przykłady
+  \begin{itemize}
+    \item $\text{d}x$
+  \end{itemize}
+\end{frame}
+
+\end{document}

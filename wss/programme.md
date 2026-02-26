@@ -1,30 +1,29 @@
 ---
 obiady: "restauracji Plastyczna"
-szatnia: sali 105
+szatnia: 105
 days:
-  - name: TBA
-   - name: "Piątek 28 Marca"
+   - name: "Piątek 13 marca"
      hours:
        - time: "13:30-15:00"
          room: "przedsionek Instytutu Informatyki"
          activity: "Rejestracja uczestników"
        - time: "15:00-16:30"
          room: 25
-         activity: "Rozpoczęcie konferencji, wykład prof. Bożejki"
+         activity: "Rozpoczęcie konferencji, wykład prof. Januszkiewicza"
        - time: "16:30-17:00"
          activity: "Obiad"
        - time: "17:15-18:00"
          talks:
            - room: 25
-             title: "Zbalansowana nierówność Hardy'ego"
-             author: "Antoni Szczukiewicz"
-             field: "analiza"
-             link: "https://drive.google.com/file/d/1Zue-qvnqXyHuMD7Vl_PCndqtQGhyiLFj/view?usp=drive_link"
+             title: "TBA"
+             author: ""
+             field: ""
+             link: ""
            - room: 119
-             title: "Operacja * i zbiory mikroskopijne"
-             author: "Daria Perkowska"
-             field: "teoria mnogości"
-             link: "https://drive.google.com/file/d/1zN5_yYotDy9wdaEWVhwkgV1i-85gfy3O/view?usp=drive_link"
+             title: "TBA"
+             author: ""
+             field: ""
+             link: ""
        - time: "18:15-??:??"
          room: 119
          activity: "Integracja"

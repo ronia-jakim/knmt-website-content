@@ -28,7 +28,7 @@ days:
          room: 119
          activity: "Integracja"
 
-   - name: "Sobota 29 Marca"
+   - name: "Sobota 14 Marca"
      hours:
        - time: "09:00-09:30"
          activity: "Śniadanie"
@@ -109,7 +109,7 @@ days:
          activity: "Integracja w barze Przekręt (ul. Curie-Skłodowskiej 1, 50-381 Wrocław)"
          link: "https://www.facebook.com/PrzekretPubStudencki/?locale=pl_PL"
 
-   - name: "Niedziela 30 Marca"
+   - name: "Niedziela 15 Marca"
      hours:
        - time: "09:00-09:30"
          activity: "Śniadanie"

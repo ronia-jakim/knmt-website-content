@@ -9,19 +9,14 @@ days:
          activity: "Rejestracja uczestników"
        - time: "15:00-16:30"
          room: 25
-         activity: "Rozpoczęcie konferencji, wykład prof. Januszkiewicza"
-       - time: "16:30-17:00"
+         activity: "Rozpoczęcie konferencji, wykład prof. Świątkowskiego"
+       - time: "16:15-17:00"
          activity: "Obiad"
        - time: "17:15-18:00"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-           - room: 119
-             title: "TBA"
-             author: ""
+             title: "Skończone geometrie, systemy Steinera i sporadyczne grupy proste"
+             author: "Jagna Olszewska"
              field: ""
              link: ""
        - time: "18:15-??:??"
@@ -32,18 +27,23 @@ days:
      hours:
        - time: "09:00-09:30"
          activity: "Śniadanie"
-       - time: "10:00-10:45"
+       - time: "10:00-10:25"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
+             title: "Lemat Spernera i podział ciasta"
+             author: "Jakub Sokołowski"
              field: ""
              link: ""
-       - time: "11:00-11:25"
+       - time: "10:45-11:25"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
+             title: "Drzewa i wolność, czyli krótki dowód z geometrycznej teorii grup"
+             author: "Marta Kosz"
+             field: ""
+             link: ""
+           - room: 119
+             title: "Jak skomplikowana może być gęstość? Czyli operatory dolnej gęstości w wersji ogólnej."
+             author: "Bartosz Kamiński"
              field: ""
              link: ""
        - time: "11:25-12:15"
@@ -61,7 +61,7 @@ days:
          activity: "Obiad"
        - time: "14:30-15:00"
          activity: "Przerwa kawowa"
-       - time: "15:00-16:00"
+       - time: "15:00-16:45"
          talks:
            - room: 25
              title: "Warsztaty: hipoteza jakobianowa"
@@ -69,40 +69,28 @@ days:
            - room: 119
              title: "Warsztaty: teoria grup"
              author: "Motiejus Valiunas"
-       - time: "16:20-16:45"
-         talks:
-           - room: 25
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-           - room: 119
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
        - time: "17:00-17:25"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
+             title: "Wokół twierdzenia Banacha-Mazura"
+             author: "Jakub Pawlak"
              field: ""
              link: ""
            - room: 119
-             title: "TBA"
-             author: ""
+             title: "Srebrne czy złote? - (nie)pełna opowieść o klasyfikacji pierścieni skończonych"
+             author: "Radosław Zając"
              field: ""
              link: ""
        - time: "17:40-18:25"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
+             title: "Funkcje prawie okresowe"
+             author: "Wojciech Wdowski"
              field: ""
              link: ""
            - room: 119
-             title: "TBA"
-             author: ""
+             title: "Modelowanie nadwyżki kapitałowej zakładów ubezpieczeniowych"
+             author: "Paweł Lotko"
              field: ""
              link: ""
        - time: "20:00-??:??"
@@ -111,63 +99,46 @@ days:
 
    - name: "Niedziela 15 Marca"
      hours:
-       - time: "09:00-09:30"
+       - time: "09:00-10:00"
          activity: "Śniadanie"
        - time: "10:00-10:45"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
-             field: ""
-             link: "https://drive.google.com/file/d/1L5IO93IQiekpsezJSUFvvizSFkaT9KwK/view?usp=drive_link"
-           - room: 119
-             title: "TBA"
-             author: ""
+             title: "Twierdzenie à la Halla i skojarzenia w grafach planarnych"
+             author: "Magda Wójtowicz"
              field: ""
              link: ""
        - time: "11:00-11:25"
          talks:
            - room: 25
-             title: "TBA"
-             author: ""
+             title: "Logika modalna"
+             author: "Patryk Nitkowski"
              field: ""
              link: ""
            - room: 119
-             title: "TBA"
-             author: ""
+             title: "O kanapkach, koralikach i borsukach, czyli zastosowania twierdzenia o antypodach"
+             author: "Patryk Osika"
              field: ""
              link: ""
        - time: "11:25-12:00"
          activity: "Przerwa kawowa"
-       - time: "12:00-12:30"
+       - time: "12:00-12:25"
+         talks:
+           - room: 25
+             title: "Elementarne wprowadzenie do dużych liczb"
+             author: "Olaf Kołodziejski"
+             field: ""
+             link: ""
+       - time: "12:40-13:05"
+         talks:
+           - room: 25
+             title: "Algebry Clifforda"
+             author: "Michał Stadnik"
+             field: ""
+             link: ""
+       - time: "13:05-14:00"
          activity: "Obiad"
-       - time: "12:30-12:55"
-         talks:
-           - room: 25
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-           - room: 119
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-       - time: "12:55-13:45"
-         activity: "Przerwa kawowa"
-       - time: "13:45-14:10"
-         talks:
-           - room: 25
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-           - room: 119
-             title: "TBA"
-             author: ""
-             field: ""
-             link: ""
-       - time: "14:30-16:00"
+       - time: "14:00-15:30"
          room: 25
-         activity: "Pożegnanie i wykład dr. Gogoloka"
+         activity: "Zakończenie konferencji i wykład dr Gogoloka"
 ---

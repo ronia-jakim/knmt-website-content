@@ -53,6 +53,7 @@ days:
          talks:
            - room: 25
              title: "Warsztaty: hipoteza jakobianowa"
+             link: "https://pdyszewski.github.io/hj/"
              author: "Piotr Dyszewski"
            - room: 119
              title: "Warsztaty: teoria grup"
